@@ -11,10 +11,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Web3Mon | The First NFT Multiverse Game</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/img/favicon.png" />
+        <meta property="og:image" content="/img/favicon.png" />
       </Head>
-      {/* <Cursor /> */}
-      {/* <LoadingScreen /> */}
       <Component {...pageProps} />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>

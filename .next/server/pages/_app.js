@@ -116,7 +116,10 @@ function MyApp({
         children: "Web3Mon | The First NFT Multiverse Game"
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "icon",
-        href: "/favicon.png"
+        href: "/img/favicon.png"
+      }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
+        property: "og:image",
+        content: "/img/favicon.png"
       })]
     }), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps)), /*#__PURE__*/jsx_runtime_.jsx(components_scrollToTop, {}), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
       id: "wow",

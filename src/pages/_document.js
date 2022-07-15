@@ -21,8 +21,7 @@ class MyDocument extends Document {
             name="description"
             content="Web3Mon | The First NFT Multiverse Game"
           />
-          <meta name="author" content="" />
-          <link rel="shortcut icon" href="/1.png" />
+
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"
@@ -31,6 +30,9 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           />
+          <meta property="og:image" content="/img/favicon.png" />
+          <meta name="author" content="" />
+          <link rel="shortcut icon" href="/img/favicon.png" />
         </Head>
 
         <body>
