@@ -276,7 +276,7 @@ const NavbarFullMenu = ({
                     className: "o-hidden",
                     children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
                       a: true,
-                      href: "mailto:hello@nearmoon.finance",
+                      href: "mailto:hello@web3mon.io",
                       target: "_blank",
                       rel: "noreferrer",
                       className: "link",
@@ -297,8 +297,15 @@ const NavbarFullMenu = ({
                 className: "item",
                 children: [/*#__PURE__*/jsx_runtime_.jsx("h6", {
                   children: "Twitter :"
-                }), /*#__PURE__*/jsx_runtime_.jsx("p", {
-                  children: " @web3mon"
+                }), /*#__PURE__*/jsx_runtime_.jsx("a", {
+                  a: true,
+                  href: "https://twitter.com/web3mon",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  className: "link",
+                  children: /*#__PURE__*/jsx_runtime_.jsx("p", {
+                    children: " @web3mon"
+                  })
                 })]
               }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
                 className: "item",
@@ -306,7 +313,11 @@ const NavbarFullMenu = ({
                   children: "Email :"
                 }), /*#__PURE__*/jsx_runtime_.jsx("p", {
                   children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                    href: "#0",
+                    a: true,
+                    href: "mailto:hello@web3mon.io",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    className: "link",
                     children: "hello@web3mon.io"
                   })
                 })]

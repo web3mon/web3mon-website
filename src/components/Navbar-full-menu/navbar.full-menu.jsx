@@ -86,7 +86,7 @@ const NavbarFullMenu = ({ theme }) => {
                     <div className="o-hidden">
                       <a
                         a
-                        href="mailto:hello@nearmoon.finance"
+                        href="mailto:hello@web3mon.io"
                         target="_blank"
                         rel="noreferrer"
                         className="link"
@@ -102,13 +102,29 @@ const NavbarFullMenu = ({ theme }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Twitter :</h6>
-                  <p> @web3mon</p>
+                  <a
+                    a
+                    href="https://twitter.com/web3mon"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link"
+                  >
+                    <p> @web3mon</p>
+                  </a>
                 </div>
 
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">hello@web3mon.io</a>
+                    <a
+                      a
+                      href="mailto:hello@web3mon.io"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="link"
+                    >
+                      hello@web3mon.io
+                    </a>
                   </p>
                 </div>
               </div>
