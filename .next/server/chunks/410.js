@@ -233,7 +233,7 @@ const NavbarFullMenu = ({
                   children: /*#__PURE__*/jsx_runtime_.jsx("div", {
                     className: "o-hidden",
                     children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-                      href: "https://nearmoondao.gitbook.io/web3mon/",
+                      href: "https://docs.web3mon.io/",
                       target: "_blank",
                       rel: "noreferrer",
                       className: "link",

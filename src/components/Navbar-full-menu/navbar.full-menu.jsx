@@ -49,7 +49,7 @@ const NavbarFullMenu = ({ theme }) => {
                   <li>
                     <div className="o-hidden">
                       <a
-                        href="https://nearmoondao.gitbook.io/web3mon/"
+                        href="https://docs.web3mon.io/"
                         target="_blank"
                         rel="noreferrer"
                         className="link"
