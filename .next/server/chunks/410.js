@@ -261,7 +261,7 @@ const NavbarFullMenu = ({
                   children: /*#__PURE__*/jsx_runtime_.jsx("div", {
                     className: "o-hidden",
                     children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-                      href: "https://drive.google.com/file/d/17AXQ0kO5c9N1w6k_O2a-LXJOaWR-7b7N/view?usp=sharing",
+                      href: "https://drive.google.com/file/d/10ycxtygaL_h6RB4DPnmUYRUMrM66P3jE/view?usp=sharing",
                       target: "_blank",
                       rel: "noreferrer",
                       className: "link",

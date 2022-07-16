@@ -73,11 +73,11 @@ const NavbarFullMenu = ({ theme }) => {
                   <li>
                     <div className="o-hidden">
                       <a
-                        href="https://drive.google.com/file/d/17AXQ0kO5c9N1w6k_O2a-LXJOaWR-7b7N/view?usp=sharing"
+                        href="https://drive.google.com/file/d/10ycxtygaL_h6RB4DPnmUYRUMrM66P3jE/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                         className="link"
-                      >
+                      > 
                         <span className="nm">03.</span>PitchDeck
                       </a>
                     </div>
