@@ -89,7 +89,7 @@ const NavbarFullMenu = ({ theme }) => {
                         target="_blank"
                         rel="noreferrer"
                         className="link"
-                      > 
+                      >
                         <span className="nm">04.</span>PitchDeck
                       </a>
                     </div>
