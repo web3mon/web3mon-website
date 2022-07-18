@@ -61,12 +61,24 @@ const NavbarFullMenu = ({ theme }) => {
                   <li>
                     <div className="o-hidden">
                       <a
-                        href="https://nearmoondao.gitbook.io/web3mon/"
+                        href="https://web3mon-beta.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="link"
                       >
-                        <span className="nm">02.</span>Demo (coming soon)
+                        <span className="nm">02.</span>Game Demo
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
+                      <a
+                        href="https://drive.google.com/file/d/1_zVtsEb95VAS3qOtvmqgH_GWZJTVnpvS/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link"
+                      >
+                        <span className="nm">03.</span>Game Guidance
                       </a>
                     </div>
                   </li>
@@ -78,7 +90,7 @@ const NavbarFullMenu = ({ theme }) => {
                         rel="noreferrer"
                         className="link"
                       > 
-                        <span className="nm">03.</span>PitchDeck
+                        <span className="nm">04.</span>PitchDeck
                       </a>
                     </div>
                   </li>
@@ -91,7 +103,7 @@ const NavbarFullMenu = ({ theme }) => {
                         rel="noreferrer"
                         className="link"
                       >
-                        <span className="nm">04.</span>Contact
+                        <span className="nm">05.</span>Contact
                       </a>
                     </div>
                   </li>

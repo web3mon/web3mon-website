@@ -84,31 +84,33 @@ const ShowcasesFullScreenCircleSlide = () => {
                     style={{ backgroundImage: `url(${slide.image})` }}
                     data-overlay-dark="1"
                   >
-                    <div className="caption ontop valign">
-                      <div className="o-hidden">
-                        <h1 data-swiper-parallax="-2000">
-                      
+                    {" "}
+                    <a
+                      href="https://web3mon-beta.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="link"
+                    >
+                      <div className="caption ontop valign">
+                        <div className="o-hidden">
+                          <h1 data-swiper-parallax="-2000">
+                            <div className="stroke">{slide.title.first}</div>
+                            <span>{slide.title.second}</span>
+                          </h1>
+                        </div>
+                      </div>
+                      <div className="copy-cap valign">
+                        <div className="cap">
+                          <h1 data-swiper-parallax="-2000">
                             <a>
                               <div className="stroke">{slide.title.first}</div>
                               <span>{slide.title.second}</span>
                             </a>
-                      
-                        </h1>
-                      </div>
-                    </div>
-                    <div className="copy-cap valign">
-                      <div className="cap">
-                        <h1 data-swiper-parallax="-2000">
-                      
-                            <a>
-                              <div className="stroke">{slide.title.first}</div>
-                              <span>{slide.title.second}</span>
-                            </a>
-                     
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
+                          </h1>
+                        </div>
+                      </div>{" "}
+                    </a>
+                  </div>{" "}
                 </div>
               </SwiperSlide>
             ))}
